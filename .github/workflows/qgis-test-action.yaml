@@ -1,6 +1,5 @@
 name: qgis-test-action
-on:
-  workflow_dispatch:
+on: workflow_dispatch
 jobs:
   test-package:
     runs-on: ubuntu-20.04
