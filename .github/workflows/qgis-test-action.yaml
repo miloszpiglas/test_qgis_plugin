@@ -4,5 +4,5 @@ jobs:
   test-package:
     runs-on: ubuntu-20.04
     steps:
-      - run: apt-get install python3-qgis
+      - run: sudo apt-get install python3-qgis
       - run: python3 -c "from qgis import core; print(core.__name__)"
